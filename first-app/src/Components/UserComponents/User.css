@@ -1,0 +1,10 @@
+.userInitials {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    width: 140px;
+    height: 70px;
+    text-align: center;
+    
+}
