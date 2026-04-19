@@ -1,13 +1,13 @@
 import './User.css'
 
 function UserComponent(props){
-    let name = props.name
+    let name: string = props.name
     let sername = props.sername
     return (
         <div className="userInitials">
             <div className='Letters'>
-                {name[0]}
-                {sername[0]}
+                {name[0].toUpperCase()}
+                {sername[0].toUpperCase()}
             </div>
             <div className='fullName'>
                 {name + ' ' + sername}
